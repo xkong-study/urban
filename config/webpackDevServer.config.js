@@ -81,7 +81,14 @@ module.exports = function(proxy, allowedHost) {
       disableDotRule: true,
     },
     public: allowedHost,
-    proxy,
+    proxy:{
+      '/api':{
+        target: 'http://127.0.0.1:3000', // 后台服务地址以及端口号
+        changeOrigin: true, //是否跨域
+        pathRewrite: { '^/api': '/' }
+      }
+
+    },
     before(app, server) {
       if (fs.existsSync(paths.proxySetup)) {
         // This registers user provided middleware for proxy reasons
