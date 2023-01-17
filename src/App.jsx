@@ -1,24 +1,27 @@
 // 引入必要的组件
-import React from 'react'
-import {Outlet} from 'react-router-dom'
+/* jshint esversion: 6 */
+import React from 'react';
+import {Outlet} from 'react-router-dom';
 import { Layout } from 'antd';
 import Header from './components/Header';
 import Aside from './components/Aside';
-import Bread from './components/Bread';
-
+import store from "./store";
+import { Provider } from "react-redux";
 export default function App(){
+    console.log('app......store.....',store,store.getState());
     return (
+        <Provider store={store}>
         <Layout id="app">
             <Header/>
             <div className="container">
               <Aside/>
                     <div className="container_box">
-                        <Bread/>
                         <Outlet/>
                     </div>
           </div>
-          <footer>欢迎使用该程序</footer>
+          <footer>Welcome to this project</footer>
     </Layout>
+       </Provider>
     );
 }
 

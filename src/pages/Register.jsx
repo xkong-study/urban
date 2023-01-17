@@ -1,21 +1,23 @@
-import React from 'react'
+/* jshint esversion: 6 */
+import React from 'react';
 import login from "../assets/login.png";
 import {Button, Form, Input} from "antd";
 import {LockOutlined, UserOutlined} from "@ant-design/icons";
 import {Link,useNavigate} from "react-router-dom";
 import {RegisterApi} from './request/api';
+
 export default function Register(){
     const navigate=useNavigate();
     const onFinish = (values) => {
         console.log('Success:', values);
-        setTimeout(()=>navigate('/login'),1500)
+        setTimeout(()=>navigate('/login'),1500);
         RegisterApi({
             username:values.username,
             password:values.password
         }).then(res=>{
-          console.log(res)
-          setTimeout(()=>navigate('/login'),1500)
-        })
+          console.log(res);
+          setTimeout(()=>navigate('/login'),1500);
+        });
     };
 
     const onFinishFailed = (errorInfo) => {
@@ -25,7 +27,7 @@ export default function Register(){
         <div className="login">
             <div className="login_box">
                 <div className="picture">
-                    <img src={login} alt=""/>
+                    <img style={{width:'400px',height:'200px',marginLeft:'-50px'}} src={login} alt=""/>
                 </div>
                 <Form
                     name="basic"
@@ -37,9 +39,9 @@ export default function Register(){
                     autoComplete="off"
                 >
                     <Form.Item
-                        label="用户名"
+                        label="username"
                         name="username"
-                        placeholder="请输入用户名"
+                        placeholder="Please input your username!"
                         rules={[
                             {
                                 required: true,
@@ -47,11 +49,11 @@ export default function Register(){
                             },
                         ]}
                     >
-                        <Input prefix={<UserOutlined/>} placeholder="请输入用户名"/>
+                        <Input prefix={<UserOutlined/>} placeholder="Please input your username!"/>
                     </Form.Item>
 
                     <Form.Item
-                        label="用户密码"
+                        label="password"
                         name="password"
                         rules={[
                             {
@@ -60,12 +62,12 @@ export default function Register(){
                             },
                         ]}
                     >
-                        <Input.Password prefix={<LockOutlined/>} placeholder="请输入密码"/>
+                        <Input.Password prefix={<LockOutlined/>} placeholder="Please input your password!"/>
                     </Form.Item>
 
                     <Form.Item
                         name="confirm"
-                        label="确认密码"
+                        label="confirm password"
                         dependencies={['password']}
                         hasFeedback
                         rules={[
@@ -84,12 +86,12 @@ export default function Register(){
                             }),
                         ]}
                     >
-                        <Input.Password prefix={<LockOutlined/>} placeholder="请再次输入密码"/>
+                        <Input.Password prefix={<LockOutlined/>} placeholder="please enter password again"/>
                     </Form.Item>
                     <Form.Item>
-                        <Link to='/login'>注册完毕,回到登录页</Link>
+                        <Link to='/login'>After registration, return to the login page</Link>
                     </Form.Item>
-                    <Button type="primary" htmlType="submit" block>立即注册</Button>
+                    <Button type="primary" htmlType="submit" block>Sign up now</Button>
                 </Form>
             </div>
         </div>

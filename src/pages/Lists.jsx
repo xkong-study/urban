@@ -1,23 +1,29 @@
-import React from 'react'
+/* jshint esversion: 6 */
+import React from 'react';
 import {List, Button, Skeleton} from 'antd';
-import {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react';
 import {ArticleListApi, DeleteTextApi} from "./request/api";
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
+import {useSelector,useDispatch} from 'react-redux';
 function MyTitle(props) {
     return (
         <div>
             <a className='table_title' href={"https://jsonplaceholder.typicode.com/posts/"+props.id} >{props.title}</a>
-            <p style={{ color: '#999' }}>简介:{props.subTitle}</p>
+            <p style={{ color: '#999' }}>comment:{props.comment}</p>
+            <p style={{ color: '#999' }}>score:{props.score}</p>
         </div>
     )
 }
+
 export default function Lists(){
+    const isLogin = useSelector(state => state.isLogin)
+    console.log(isLogin)
     const navigate = useNavigate()
     const [arr,setArr]=useState([
         {
-            title:'',
             id:'',
-            text:''
+            title:'',
+            text:'',
         }
     ])
     function Delete(item) {
@@ -33,18 +39,23 @@ export default function Lists(){
                 console.log(error);
             });
     }
+    let params = {
+        search: isLogin,
+    }
     useEffect(()=>{
-        ArticleListApi().then(res=> {
+        ArticleListApi({params}).then(res=> {
             let newArr=JSON.parse(JSON.stringify(res));//深拷贝
             let myarr=[]//用来获取自己想要的属性
             newArr.map(item=>{
-                let obj= {
-                    id : item.id,
-                    title : <MyTitle title={item.title}  />,
-                    text:item.text,
+                if(item.id != null) {
+                    let obj = {
+                        id: item.id,
+                        title: <MyTitle title={item.text} comment={item.comment} score={item.score}/>,
+                    }
+                    myarr.push(obj);
                 }
-                myarr.push(obj);
             })
+            console.log(myarr)
             setArr(myarr)
         })
     },[])
@@ -57,8 +68,8 @@ export default function Lists(){
             renderItem={item => (
                 <List.Item
                     actions={[
-                        <Button type='primary' onClick={()=>navigate('/edit?id='+item.id)}>编辑</Button>,
-                        <Button type='danger' onClick={Delete.bind(this,item)}>删除</Button>,
+                        <Button type='primary' onClick={()=>navigate('/edit?id='+item.id)}>edit</Button>,
+                        <Button type='danger' onClick={Delete.bind(this,item)}>delete</Button>,
                     ]}
                 >
                     <Skeleton loading={false}>

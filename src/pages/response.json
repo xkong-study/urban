@@ -1,0 +1,658 @@
+{
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.4870434,
+               "lng" : -6.2728875
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.48827803029149,
+                  "lng" : -6.271461719708499
+               },
+               "southwest" : {
+                  "lat" : 53.4855800697085,
+                  "lng" : -6.274159680291503
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "McLoughlins Restaurant",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3016,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101084502278837907205\"\u003eMiguel\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDz99kpSXVLXnNoP-JpCVQAQEQ2NGJeMalOtaonrXUWkMzflsaCdCrIiS5CrN_lxtV8in9zi1cJ0JdZP-LEhd1lxo51ZlAw2EGgKSSOPjGzw6fLpTwfQjqJmtzpnNJj0B6RlH1GB36etpt2PpF_stMYPkd5AfOJzO9F-Q3bzFYOCnMW0",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJz6z8v8oWZ0gRR52-uX81O9k",
+         "plus_code" : {
+            "compound_code" : "FPPG+RR Swords Glebe, Swords, County Dublin, Ireland",
+            "global_code" : "9C5MFPPG+RR"
+         },
+         "rating" : 4,
+         "reference" : "ChIJz6z8v8oWZ0gRR52-uX81O9k",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 29,
+         "vicinity" : "Roganstown Hotel and Country Club, Naul Road, Swords"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.5216366,
+               "lng" : -6.267610699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.5229983302915,
+                  "lng" : -6.266191919708497
+               },
+               "southwest" : {
+                  "lat" : 53.5203003697085,
+                  "lng" : -6.268889880291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "The Brew Bistro",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116003049595053379777\"\u003eDamien McGettrick\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDxD29_VImcZCAtX0whBP4cPNvoggIfEH9txShRHRwf-kMFkAyCb_y0WlKlTsOoZV8kGFJtSioX0ObhYixKROVRmgLxPy5Uw18S5oml_SZQdiyXC9F2nM5FU_SurJwJeddK9oWQqrjQPy1c3sd77hKryiKqeOY6321388BpeyBUK3-Oy",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJA9cZifAWZ0gR_aUeoAV3u1o",
+         "plus_code" : {
+            "compound_code" : "GPCJ+MX Ballyboughal, County Dublin, Ireland",
+            "global_code" : "9C5MGPCJ+MX"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJA9cZifAWZ0gR_aUeoAV3u1o",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 283,
+         "vicinity" : "Main Street, Ballyboughal"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.4877,
+               "lng" : -6.305499999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.48918663029149,
+                  "lng" : -6.304013769708497
+               },
+               "southwest" : {
+                  "lat" : 53.48648866970849,
+                  "lng" : -6.306711730291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Centra Rolestown",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116257923219007269399\"\u003eMichael Macken (Mick)\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDysTdtoy9DApCqWyAuv70dX1eu_18Q6N7zRT_0hmzjaUtQTMB5ilhUQLh6nO8SP_bCUrorM38yKY2DKiSChk_qQmHJFfOLv2PCJMZcdRzwD8zLBx-9GJ85U2ixU0v4gnVCN3sRkE4LPNQqsT_qITRhGTe_He81hXglUYqbrb6FLAvS6",
+               "width" : 2250
+            }
+         ],
+         "place_id" : "ChIJmwmTgKkVZ0gRhowUEfHxNos",
+         "plus_code" : {
+            "compound_code" : "FMQV+3R Rolestown, County Dublin, Ireland",
+            "global_code" : "9C5MFMQV+3R"
+         },
+         "rating" : 4,
+         "reference" : "ChIJmwmTgKkVZ0gRhowUEfHxNos",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Rolestown"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.4869072,
+               "lng" : -6.2732721
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4881485302915,
+                  "lng" : -6.271843919708497
+               },
+               "southwest" : {
+                  "lat" : 53.4854505697085,
+                  "lng" : -6.274541880291501
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "O’Callaghan’s Patio - outside dining",
+         "place_id" : "ChIJMThuSJkXZ0gRGKXdHLrYufA",
+         "plus_code" : {
+            "compound_code" : "FPPG+QM Swords, County Dublin, Ireland",
+            "global_code" : "9C5MFPPG+QM"
+         },
+         "reference" : "ChIJMThuSJkXZ0gRGKXdHLrYufA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Naul Rd, Roganstown, Swords"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.4897435,
+               "lng" : -6.380181299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4909402802915,
+                  "lng" : -6.378359319708498
+               },
+               "southwest" : {
+                  "lat" : 53.4882423197085,
+                  "lng" : -6.381057280291503
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Newbarn Farm & The Donkey Shed Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118353427075264380638\"\u003eDON MC QUILLAN\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDy8xWUaxVUmW0HpDRqwfPV7qDw1qUVNFHKfPfbIALpMVdGZE-fcCzTpclRCj8-Wbf8-1-thSe5NKsQe49O1VuBIoSRtXvzTR8Vufz6lXdWtdu-DcQG9A0jmuyLXhECVAA-JzUv3G7CzZnZu3l4zhJDSr5LzLE-7o1lL5ExmhsPb3zzK",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJxW0nKpoUZ0gR2z9y3-aO2Ik",
+         "plus_code" : {
+            "compound_code" : "FJQ9+VW Ashbourne, County Meath, Ireland",
+            "global_code" : "9C5MFJQ9+VW"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJxW0nKpoUZ0gR2z9y3-aO2Ik",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1141,
+         "vicinity" : "New Barn Farm, A84DP49, Dublin Road, Donaghmore, Ashbourne"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.51529290000001,
+               "lng" : -6.2783433
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.5166160302915,
+                  "lng" : -6.276964719708498
+               },
+               "southwest" : {
+                  "lat" : 53.5139180697085,
+                  "lng" : -6.279662680291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "The Chuck Wagon",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117263459078432093876\"\u003eJonathan Dunne\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDxpHTWl3sgJT-UHR1uGUDBjBU_SdhMcxBGIi2_vV2EEsR16knNxR666h0PxrWtPTjb9E2zBLjJOpGoPiCz01Owm1fdEdybQQDD5D3RWnSX84oznv6XqB-ciC3HNLnM2IXu6cswT-PE9ZlpraXqTDauEgbbXGZPyIQ50eNFSjCN9yhtX",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJF_1pIuAZZ0gRoZ2ZWwxYX_E",
+         "plus_code" : {
+            "compound_code" : "GP8C+4M Ballyboughal, County Dublin, Ireland",
+            "global_code" : "9C5MGP8C+4M"
+         },
+         "price_level" : 1,
+         "rating" : 4.7,
+         "reference" : "ChIJF_1pIuAZZ0gRoZ2ZWwxYX_E",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 287,
+         "vicinity" : "The Grange, Grange, Ballyboughal"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.45942700000001,
+               "lng" : -6.323302200000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4608647302915,
+                  "lng" : -6.321927819708497
+               },
+               "southwest" : {
+                  "lat" : 53.45816676970851,
+                  "lng" : -6.324625780291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Clubhouse Bar & Restaurant",
+         "place_id" : "ChIJN4m3gAkTZ0gRjklpaTA8Zfo",
+         "plus_code" : {
+            "compound_code" : "FM5G+QM Kilsallaghan, County Dublin, Ireland",
+            "global_code" : "9C5MFM5G+QM"
+         },
+         "reference" : "ChIJN4m3gAkTZ0gRjklpaTA8Zfo",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Corrstown, Kilsallaghan"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.503686,
+               "lng" : -6.379090799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.5051419802915,
+                  "lng" : -6.377933669708497
+               },
+               "southwest" : {
+                  "lat" : 53.5024440197085,
+                  "lng" : -6.380631630291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Bistro 19",
+         "place_id" : "ChIJLWpBWM8VZ0gRij2Q1RlvtV4",
+         "plus_code" : {
+            "compound_code" : "GJ3C+F9 Ashbourne, County Meath, Ireland",
+            "global_code" : "9C5MGJ3C+F9"
+         },
+         "reference" : "ChIJLWpBWM8VZ0gRij2Q1RlvtV4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Archerstown Road, Archerstown, Ashbourne"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.50369300000001,
+               "lng" : -6.3792034
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.5051454802915,
+                  "lng" : -6.377989969708498
+               },
+               "southwest" : {
+                  "lat" : 53.5024475197085,
+                  "lng" : -6.380687930291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Clubhouse Restaurant & Bar",
+         "place_id" : "ChIJd1IWVfkVZ0gR6jGrmMrXJlI",
+         "plus_code" : {
+            "compound_code" : "GJ3C+F8 Ashbourne, County Meath, Ireland",
+            "global_code" : "9C5MGJ3C+F8"
+         },
+         "reference" : "ChIJd1IWVfkVZ0gR6jGrmMrXJlI",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Archerstown Road, Archerstown, Ashbourne"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.45884169999999,
+               "lng" : -6.34944
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.46019373029149,
+                  "lng" : -6.348087619708497
+               },
+               "southwest" : {
+                  "lat" : 53.45749576970849,
+                  "lng" : -6.350785580291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Coolquoy Lodge",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116787000035470111710\"\u003eKeith Lambe\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDwLoFTGVR_KqLm4bOBcVf1pREbtoavQfO7OQv23OZ-Ol2Hi_-krrdS98zKu0WRwUhbOwujYtUqfjejjuig25-qMVPelHLBM7q8ExP9eJIqvy6z0SrUxNWF5YUfw9K9xJjySOonkwxaNxv5zoVWtSE3xNkJFHtiIO_Ea534p-GleoEUi",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJIyFDFKATZ0gR_oBxpF9F7gU",
+         "plus_code" : {
+            "compound_code" : "FM52+G6 Coolquoy Common, County Dublin, Ireland",
+            "global_code" : "9C5MFM52+G6"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJIyFDFKATZ0gR_oBxpF9F7gU",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 619,
+         "vicinity" : "Coolquoy Lodge, Coolquoy Common"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.459551,
+               "lng" : -6.3518478
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.46089308029151,
+                  "lng" : -6.350481969708499
+               },
+               "southwest" : {
+                  "lat" : 53.45819511970851,
+                  "lng" : -6.353179930291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "The Burger Project",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108489397316214143480\"\u003eThe Burger Project\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDyBmO9luz-1NhCmovznkJTGNVARP-Kg5lCOzLV-Ld1cUTSxpFmH2SI_VS6eCUQ21JT-IGWMIuxPv9g7ymCecnXsHQLgiP8Cv1Ps9qC3MvyhB5bxWyYTIuwIFelJ_D-MiSUIKUb-0rBwvwRvc--nIAp1RRos5xWb0greItsGSWqfXiW1",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJRQCLOIYTZ0gRMzYP-90GiAA",
+         "plus_code" : {
+            "compound_code" : "FJ5X+R7 Coolquay, County Dublin, Ireland",
+            "global_code" : "9C5MFJ5X+R7"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJRQCLOIYTZ0gRMzYP-90GiAA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 32,
+         "vicinity" : "Coolquay"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.45944979999999,
+               "lng" : -6.3516203
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4607736302915,
+                  "lng" : -6.350257069708498
+               },
+               "southwest" : {
+                  "lat" : 53.4580756697085,
+                  "lng" : -6.352955030291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Sorrento Pizza",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109253798121024594086\"\u003eSorrento Pizza\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDzRvT1vKHST6gEdJruVwPvNBFAWR5mT7ia1hReNM8y-JQL7hQgrBuhXNd-L9vm6c_qm1YTPFzz-JPMlSSKFEkbVTKGhqBr0HjeSLJ7txQxzF4Apfg5CyJ6CUmU4uzN-1QZMDG06PUMJZxvUV3oWacPUp8OIa5_oXXC4fSO6hAs3QXXf",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJiX3ua14TZ0gRXHihF1S5WXE",
+         "plus_code" : {
+            "compound_code" : "FJ5X+Q9 Coolquay, County Dublin, Ireland",
+            "global_code" : "9C5MFJ5X+Q9"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJiX3ua14TZ0gRXHihF1S5WXE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Coolquay"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.4522996,
+               "lng" : -6.303428799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4534892802915,
+                  "lng" : -6.302258669708497
+               },
+               "southwest" : {
+                  "lat" : 53.4507913197085,
+                  "lng" : -6.304956630291501
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "St. Margaret's Golf & Country Club",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1368,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106511375067467240501\"\u003eSt. Margaret&#39;s Golf &amp; Country Club\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDwQnEUyEoob_QQSyqbYC4r1mANpYLqJxLP6tFSO8J2qmkgTxYIkrp1cuUohTx1DftAxfsSFoqmO6GPyCXPNIuNonY1lsb8U3Y0-t1xQgLeW3yptCt05htqPMM8l2Ff6Yvt_CK4mDbARYWLwm_-qNlP1eBdvBXNU3FL5d8XKyTSodQAl",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJK4wrtxAYaEgREDf_zQ__JXc",
+         "plus_code" : {
+            "compound_code" : "FM2W+WJ Saint Margaret's, County Dublin, Ireland",
+            "global_code" : "9C5MFM2W+WJ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJK4wrtxAYaEgREDf_zQ__JXc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 542,
+         "vicinity" : "Saint Margaret's"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.521769,
+               "lng" : -6.2676608
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.5231291802915,
+                  "lng" : -6.266250419708498
+               },
+               "southwest" : {
+                  "lat" : 53.5204312197085,
+                  "lng" : -6.268948380291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Mario's Takeaway",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110286570783507996501\"\u003eEddie Doherty\u003c/a\u003e"
+               ],
+               "photo_reference" : "AW30NDzaG-20f0XlhhhzkuzH6coFBFmGK_DOW1TUaIKLGHyKlTEx-Vs-HU2lSJaiJNeSp-bEoVNABt7yGVgFgxMnNzKyJYWmsU5pzVfhH17uGPLR527CZOAmbJE68k6TEQsxeZNbAsnAVfiHLJTm3ayhfWGKfS4e_nGHnhucv1Omk6Egc3o1",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ03fvjvAWZ0gRvkWcnc9KQeU",
+         "plus_code" : {
+            "compound_code" : "GPCJ+PW Ballyboughal, County Dublin, Ireland",
+            "global_code" : "9C5MGPCJ+PW"
+         },
+         "price_level" : 1,
+         "rating" : 4.6,
+         "reference" : "ChIJ03fvjvAWZ0gRvkWcnc9KQeU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 74,
+         "vicinity" : "Main Street, Grange, Ballyboughal"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.45183780000001,
+               "lng" : -6.303247400000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4532042802915,
+                  "lng" : -6.302162719708498
+               },
+               "southwest" : {
+                  "lat" : 53.4505063197085,
+                  "lng" : -6.304860680291503
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Lír Restaurant",
+         "place_id" : "ChIJgYqCy8ETZ0gRFweiG5aZq2o",
+         "plus_code" : {
+            "compound_code" : "FM2W+PP Saint Margaret's, County Dublin, Ireland",
+            "global_code" : "9C5MFM2W+PP"
+         },
+         "reference" : "ChIJgYqCy8ETZ0gRFweiG5aZq2o",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Skephubble, Saint Margaret's"
+      }
+   ]
+}

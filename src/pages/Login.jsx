@@ -1,20 +1,25 @@
-import React from 'react'
+/* jshint esversion: 6 */
+import React from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
 import "./less/login.less";
 import login from "../assets/login.png";
 import { UserOutlined ,LockOutlined} from '@ant-design/icons';
 import {Link,useNavigate} from 'react-router-dom';
-import {LoginApi} from './request/api';
+import axios from "axios";
+import Header from "../components/Header";
 
 export default function Login(){
     const navigate=useNavigate();
     const onFinish = (values) => {
+        setTimeout(()=> navigate('/GoogleMap_?name='+values.username),1500);
+        axios.get('/api/addInfo', {
+            params: {
+                id: '1',
+                username: values.username,
+                password: values.password
+            }
+        });
         console.log('Success:', values);
-        setTimeout(()=> navigate('/'),1500);
-        LoginApi({
-            username:values.username,
-            password:values.password
-        }).then(res=>{console.log(res)});
     };
 
     const onFinishFailed = (errorInfo) => {
@@ -24,7 +29,7 @@ export default function Login(){
         <div className="login">
             <div className="login_box">
                 <div className="picture">
-                <img src={login} alt=""/>
+                <img style={{width:'400px',height:'200px',marginLeft:'-50px'}} src={login} alt=""/>
                 </div>
             <Form
                 name="basic"
@@ -36,9 +41,9 @@ export default function Login(){
                 autoComplete="off"
             >
             <Form.Item
-                label="用户名"
+                label="username"
                 name="username"
-                placeholder="请输入用户名"
+                placeholder="Please input your username"
                 rules={[
                     {
                         required: true,
@@ -46,11 +51,11 @@ export default function Login(){
                     },
                 ]}
             >
-                <Input prefix={<UserOutlined/>} placeholder="请输入用户名"/>
+                <Input prefix={<UserOutlined/>} placeholder="Please input your username"/>
             </Form.Item>
 
             <Form.Item
-                label="用户密码"
+                label="password"
                 name="password"
                 rules={[
                     {
@@ -59,7 +64,7 @@ export default function Login(){
                     },
                 ]}
             >
-                <Input.Password prefix={<LockOutlined/>} placeholder="请输入密码"/>
+                <Input.Password prefix={<LockOutlined/>} placeholder="Please input password"/>
             </Form.Item>
 
             <Form.Item
@@ -73,9 +78,9 @@ export default function Login(){
                 <Checkbox>Remember me</Checkbox>
             </Form.Item>
                 <Form.Item>
-                    <Link to='/register'>还没账号，立即注册</Link>
+                    <Link to='/register'>No account yet, register now</Link>
                 </Form.Item>
-                <Button type="primary" htmlType="submit" block>登录</Button>
+                <Button type="primary" htmlType="submit"  block>login</Button>
              </Form>
             </div>
         </div>
