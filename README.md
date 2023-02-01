@@ -25,6 +25,7 @@ This page will show the nearest shops which you search in 1km distance in the ma
 
 [![Screen-Shot-2023-02-01-at-09-39-48.png](https://i.postimg.cc/wTDHkss4/Screen-Shot-2023-02-01-at-09-39-48.png)](https://postimg.cc/GH3ZLtKv)
 
+
 This page will show the shops you searched before. It will show the shops' scores and its' comments. If you think this comments or scores are not very accurate you can change or delete them.
 
 ### http://localhost:3004/edit?id=1
