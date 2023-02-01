@@ -1,41 +1,45 @@
-# Getting Started with Create React App
+# Irish Edition Dianping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with react app.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can have search function:
 
-### `npm start`
+### http://localhost:3004/GoogleMap_
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3004](http://localhost:3004) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+when you search bar:
 
-### `npm test`
+[![Screen-Shot-2023-02-01-at-09-35-28.png](https://i.postimg.cc/FHf51dVH/Screen-Shot-2023-02-01-at-09-35-28.png)](https://postimg.cc/w1dbGBrC)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+when you search juice:
 
-### `npm run build`
+[![Screen-Shot-2023-02-01-at-09-35-15.png](https://i.postimg.cc/fTNJcsrs/Screen-Shot-2023-02-01-at-09-35-15.png)](https://postimg.cc/Cdch030r)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This page will show the nearest shops which you search in 1km distance in the map. And show the places in the table which has paging function.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### http://localhost:3004/lists
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![Screen-Shot-2023-02-01-at-09-39-48.png](https://i.postimg.cc/wTDHkss4/Screen-Shot-2023-02-01-at-09-39-48.png)](https://postimg.cc/GH3ZLtKv)
 
-### `npm run eject`
+This page will show the shops you searched before. It will show the shops' scores and its' comments. If you think this comments or scores are not very accurate you can change or delete them.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### http://localhost:3004/edit?id=1
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![Screen-Shot-2023-02-01-at-09-43-55.png](https://i.postimg.cc/kG3MnNb8/Screen-Shot-2023-02-01-at-09-43-55.png)](https://postimg.cc/341Q1v9J)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After you click the edit button in the lists page.It will jump to this page. And it can send parameters which represent the shops' comments id. The you can modify the comments based on past comments.
+
+### http://localhost:3004/ListTable
+
+[![Screen-Shot-2023-02-01-at-09-47-49.png](https://i.postimg.cc/gjQ5hdp6/Screen-Shot-2023-02-01-at-09-47-49.png)](https://postimg.cc/9wPJ36rW)
+
+You can also search the shop's name. It will show the score and comments.
+
+[![Screen-Shot-2023-02-01-at-09-47-58.png](https://i.postimg.cc/rsVW9t8B/Screen-Shot-2023-02-01-at-09-47-58.png)](https://postimg.cc/KkWRGj3f)
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
@@ -45,26 +49,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
