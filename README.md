@@ -21,20 +21,20 @@ when you search juice:
 
 This page will show the nearest shops which you search in 1km distance in the map. And show the places in the table which has paging function.
 
-### http://localhost:3004/lists
+### 3.252.123.47:3004/lists
 
 [![Screen-Shot-2023-02-01-at-09-39-48.png](https://i.postimg.cc/wTDHkss4/Screen-Shot-2023-02-01-at-09-39-48.png)](https://postimg.cc/GH3ZLtKv)
 
 
 This page will show the shops you searched before. It will show the shops' scores and its' comments. If you think this comments or scores are not very accurate you can change or delete them.
 
-### http://localhost:3004/edit?id=1
+### 3.252.123.47:3004/edit?id=1
 
 [![Screen-Shot-2023-02-01-at-09-43-55.png](https://i.postimg.cc/kG3MnNb8/Screen-Shot-2023-02-01-at-09-43-55.png)](https://postimg.cc/341Q1v9J)
 
 After you click the edit button in the lists page.It will jump to this page. And it can send parameters which represent the shops' comments id. The you can modify the comments based on past comments.
 
-### http://localhost:3004/ListTable
+### 3.252.123.47:3004/ListTable
 
 [![Screen-Shot-2023-02-01-at-09-47-49.png](https://i.postimg.cc/gjQ5hdp6/Screen-Shot-2023-02-01-at-09-47-49.png)](https://postimg.cc/9wPJ36rW)
 
