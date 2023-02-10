@@ -6,10 +6,10 @@ This project was bootstrapped with react app.
 
 In the project directory, you can have search function:
 
-### http://localhost:3004/GoogleMap_
+### 3.252.123.47:3004/build/
 
 Runs the app in the development mode.\
-Open [http://localhost:3004](http://localhost:3004) to view it in your browser.
+Open [3.252.123.47:3004/build](3.252.123.47:3004/build) to view it in your browser.
 
 when you search bar:
 
